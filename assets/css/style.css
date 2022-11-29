@@ -31,3 +31,40 @@
 .navegation .container{
     display: none;
 }
+
+
+
+
+/* SECTION HERO */
+
+
+.se-hero{
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    padding: 7.2rem 0px;
+    background-color: var(--bg-white);
+}
+
+.se-hero .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.se-hero .text{
+    width: 100%;
+    max-width: 60rem;
+}
+
+.se-hero .text p{
+    width: 100%;
+    max-width: 48.8rem;
+    margin-top: 2rem;
+    margin-bottom: 5.6rem;
+}
+
+.se-hero .text .image{
+    width: 100%;
+    max-width: 49.1rem;
+}
