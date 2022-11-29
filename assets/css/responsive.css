@@ -2,6 +2,14 @@
     .se-hero .text{
         width: 49%;
     }
+    
+    .se-info .all-cards{
+        width: 100%;
+    }
+
+    .se-info .all-cards .card{
+        width: 32%;
+    }
 }
 
 @media (max-width: 991px){
@@ -151,6 +159,17 @@
 
     .se-hero .text h1, .se-hero .text p{
         text-align: center;
+    }
+    
+    .se-info .all-cards{
+        flex-direction: column;
+    }
+    .se-info .all-cards .card{
+        width: 100%;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem 0rem;
+        margin-bottom: 2rem;
     }
 }
 
