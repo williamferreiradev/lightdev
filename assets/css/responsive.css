@@ -17,6 +17,7 @@
         width: 100%;
         background-color: var(--btn-hero_hover);
         border-radius: 1px;
+        border-top: 10px solid var(--btn-hero);
     }
     
     .navegation ul{
@@ -88,26 +89,26 @@
     .indicator::before{
         content: '';
         position: absolute;
-        top: 67%;
-        left: -22px;
-        width: 20px;
-        height: 20px;
+        top: 50.845%;
+        left: -18px;
+        width: 25px;
+        height: 25px;
         background: transparent;
-        border-top-right-radius: 20px;
-        box-shadow: 1px -10px 0 0 var(--btn-hero_hover);
+        border-top-right-radius: 30px;
+        box-shadow: 1px -10px 0 0 var(--btn-hero);
     }
     
     
     .indicator::after{
         content: '';
         position: absolute;
-        top: 67%;
-        right: -22px;
-        width: 20px;
+        top: 50.845%;
+        right: -18px;
+        width: 25px;
         height: 20px;
         background: transparent;
-        border-top-left-radius: 20px;
-        box-shadow: -1px -10px 0 0 var(--btn-hero_hover);
+        border-top-left-radius: 30px;
+        box-shadow: -1px -10px 0 0 var(--btn-hero);
     }
     
     
