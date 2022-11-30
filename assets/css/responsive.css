@@ -10,6 +10,14 @@
     .se-info .all-cards .card{
         width: 32%;
     }
+    
+     .roadmap .all-cards-roadmap{
+        width: 100%;
+    }
+
+    .roadmap .all-cards-roadmap .card{
+        width: 32%;
+    }
 }
 
 @media (max-width: 991px){
@@ -170,6 +178,20 @@
         height: auto;
         padding: 3rem 0rem;
         margin-bottom: 2rem;
+    }
+    
+    .roadmap .all-cards-roadmap{
+        flex-direction: column;
+    }
+
+    .roadmap .all-cards-roadmap .card{
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 2rem;
+        border-radius: 10px;
+        max-width: 100%;
+        height: auto;
+        padding: 3rem 0rem;
     }
 }
 
