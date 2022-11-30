@@ -133,3 +133,66 @@
     margin-top: 10rem;
     align-items: center;
 }
+
+
+
+/* SECTION ROADMAP */
+
+.roadmap{
+    padding-top: 10.4rem ;
+    padding-bottom: 12.2rem;
+    background-color: var(--bg-white);
+}
+
+
+.roadmap .title.center{
+    text-align: center;
+}
+
+.roadmap .title.center h2{
+    color: var(--black-text);
+    font-weight: 600;
+}
+
+.roadmap .all-cards-roadmap{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4.8rem;   
+}
+
+.roadmap .all-cards-roadmap .card{
+    width: 100%;
+    max-width: 23.8rem;
+    height: 29.9rem;
+    background-color: var(--background-blue);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 6.4rem;    
+    border-radius: 20px;
+}
+
+
+.all-cards-roadmap .list{
+    max-width: 308px;
+    color: var(--white);
+    padding-left: 2rem;
+}
+
+.all-cards-roadmap .list .roadmap-list li{
+    font-size: 1.2rem;
+    margin-top: 0.5rem;
+    list-style: circle;
+}
+
+.all-cards-roadmap .card:first-child{
+    margin-top: 22.1rem;
+}
+
+.all-cards-roadmap .card:nth-child(2){
+    margin-top: 15.6rem;
+}
+
+.all-cards-roadmap .card:nth-child(3){
+    margin-top: 9rem;
+}
