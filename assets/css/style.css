@@ -196,3 +196,79 @@
 .all-cards-roadmap .card:nth-child(3){
     margin-top: 9rem;
 }
+
+
+
+.footer{
+    background-color: var(--background-blue);
+    padding-top: 8.8rem;
+}
+
+.footer main{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding-bottom: 7.2rem;
+}
+
+.footer main .area-left{
+    max-width: 28.1rem;
+}
+
+.footer main .area-left img{
+    max-width: 20rem;
+}
+
+.footer main .area-left p{
+    font-size: 1.4rem;
+    line-height: 150%;
+    color: var(--text);
+    margin-top: 3.5rem;
+}
+
+.footer main nav{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 77.7rem;
+}
+
+.footer main nav .item h6{
+     font-family: 'Sora', sans-serif;
+     font-weight: 600;
+     line-height: 125%;
+     letter-spacing: -1px;
+     color: var(--white);
+     margin-bottom: 2.4rem;
+}
+
+.footer main nav .item ul li{
+    margin-bottom: 3.2rem;
+    transition: all .3s;
+}
+
+.footer main nav .item ul li:hover{
+    padding-left: 1rem;
+}
+
+.footer main nav .item ul li:last-child{
+    margin-bottom: 0;
+}
+
+.footer main nav .item ul li a{
+    font-family: 'Sora', sans-serif;
+    font-size: 1.4rem;
+    line-height: 105%;
+    color: var(--hover-card);
+}
+
+.footer main nav .item:last-child ul li a{
+    display: flex;
+    align-items: center;
+}
+
+.footer main nav .item:last-child ul li a span{
+    margin-left: 0.8rem;
+}
